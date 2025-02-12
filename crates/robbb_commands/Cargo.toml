@@ -10,7 +10,7 @@ poise.workspace = true
 anyhow = "1.0.82"
 chrono = "0.4.38"
 chrono-humanize = "0.2.3"
-itertools = "0.11.0"
+itertools = "0.14.0"
 indoc = "2.0.5"
 lazy_static = "1.4"
 humantime = "2.1.0"
@@ -20,7 +20,7 @@ serde = "1.0.200"
 maplit = "1.0.2"
 byte-unit = { version = "5.1.4", features = ["u128"] }
 regex = "1.10.4"
-reqwest = { version = "0.11" }
+reqwest = { version = "0.12" }
 tokio = { version = "1.21", features = ["macros", "fs", "rt-multi-thread"] }
 tokio-util = { version = "0.7.10", features = ["compat"] }
 futures = "0.3.30"

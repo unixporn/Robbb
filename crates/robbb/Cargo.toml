@@ -11,10 +11,10 @@ poise.workspace = true
 anyhow = "1.0.82"
 chrono = "0.4.38"
 chrono-humanize = "0.2.3"
-itertools = "0.12.1"
+itertools = "0.14.0"
 indoc = "2.0.5"
 lazy_static = "1.4"
-rand = "0.8.5"
+rand = "0.9.0"
 humantime = "2.1.0"
 thiserror = "1.0.59"
 serde_json = "1.0.116"
@@ -23,7 +23,7 @@ maplit = "1.0.2"
 byte-unit = { version = "5.1.4", features = ["u128"] }
 url = "2"
 regex = "1"
-reqwest = { version = "0.11" }
+reqwest = { version = "0.12" }
 tokio = { version = "1.21", features = ["macros", "fs", "rt-multi-thread"] }
 tokio-util = { version = "0.7.10", features = ["compat"] }
 futures = "0.3.30"
@@ -48,14 +48,14 @@ robbb_commands = { path = "../robbb_commands" }
 # tracing-logfmt = "0.3.3"
 tracing-logfmt-otel = { version = "0.2.0" }
 
-opentelemetry = { version = "0.21.0", features = ["trace", "logs"] }
-opentelemetry-otlp = { version = "0.14.0", features = [
+opentelemetry = { version = "0.28.0", features = ["trace", "logs"] }
+opentelemetry-otlp = { version = "0.28.0", features = [
     "http-proto",
     "reqwest-client",
     "grpc-tonic",
 ] }
-opentelemetry_sdk = { version = "0.21.2", features = ["rt-tokio"] }
-tracing-opentelemetry = "0.22.0"
+opentelemetry_sdk = { version = "0.28.0", features = ["rt-tokio"] }
+tracing-opentelemetry = "0.29.0"
 
 
 pyroscope = "0.5.7"
